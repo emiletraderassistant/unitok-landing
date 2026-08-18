@@ -1,0 +1,109 @@
+{
+  "distributedAmount": "+$1.5M",
+  "projects": [
+    {
+      "id": "kayao",
+      "name": "Kayao",
+      "category": "Restaurante",
+      "image": "assets/img/kayao.jpg",
+      "status": "sold-out",
+      "statusLabel": "Sold Out",
+      "metrics": [
+        { "label": "Distribuciones", "value": "20" },
+        { "label": "Total Distribuido", "value": "$424,064" },
+        { "label": "ROI Acumulado", "value": "84.81%", "highlight": true }
+      ],
+      "cta": {
+        "type": "telegram",
+        "label": "Recibe alertas de próximas rondas",
+        "href": "https://t.me/UnitokOficial"
+      }
+    },
+    {
+      "id": "matilda",
+      "name": "Matilda",
+      "category": "Restaurante",
+      "image": "assets/img/matilda.jpg",
+      "status": "sold-out",
+      "statusLabel": "Sold Out",
+      "metrics": [
+        { "label": "Distribuciones", "value": "20" },
+        { "label": "Total Distribuido", "value": "$780,800" },
+        { "label": "ROI Acumulado", "value": "104.11%", "highlight": true }
+      ],
+      "cta": {
+        "type": "telegram",
+        "label": "Recibe alertas de próximas rondas",
+        "href": "https://t.me/UnitokOficial"
+      }
+    },
+    {
+      "id": "alphaoil",
+      "name": "AlphaOil",
+      "category": "Commodity",
+      "image": "assets/img/alphaoil.jpg",
+      "status": "available",
+      "statusLabel": "Disponible",
+      "metrics": [
+        { "label": "Distribuciones", "value": "3" },
+        { "label": "Total Distribuido", "value": "$76,687" },
+        { "label": "ROI Acumulado", "value": "7.67%", "highlight": true }
+      ],
+      "cta": {
+        "type": "link",
+        "label": "Ver proyecto →",
+        "href": "https://unitok.io/l/alphaoil"
+      }
+    },
+    {
+      "id": "trulygenius",
+      "name": "Truly Genius",
+      "category": "Marca de Suplementos",
+      "image": "assets/img/trulygenius.jpg",
+      "status": "early-access",
+      "statusLabel": "Early Access",
+      "perks": [
+        "Acceso prioritario a la ronda",
+        "Beneficios para top 40 holders",
+        "Experiencias exclusivas con James"
+      ],
+      "cta": {
+        "type": "link",
+        "label": "Ver proyecto →",
+        "href": "https://unitok.io/l/trulygenius"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "id": "minimo",
+      "question": "¿Cuál es el monto mínimo para invertir?",
+      "answer": "Varía por proyecto. Nuestro objetivo es que cualquier persona pueda participar, por eso diseñamos proyectos con tokens accesibles. Cada proyecto tiene su precio por token establecido al igual que su número de tokens."
+    },
+    {
+      "id": "distribuciones",
+      "question": "¿Cómo recibo las distribuciones?",
+      "answer": "Las distribuciones se acreditan mensualmente según el rendimiento del proyecto. Desde tu dashboard puedes ver cada distribución recibida y su histórico completo."
+    },
+    {
+      "id": "legal",
+      "question": "¿Es legal invertir en Unitok?",
+      "answer": "Sí. Cada proyecto tiene estructura legal definida y los tokens representan participación económica conforme a la jurisdicción correspondiente. Los detalles específicos de cada proyecto están disponibles en su landing."
+    },
+    {
+      "id": "riesgo",
+      "question": "¿Qué pasa si un proyecto no rinde lo esperado?",
+      "answer": "Toda inversión implica riesgo. Unitok selecciona proyectos con due diligence previo, pero el rendimiento depende del desempeño real del activo. Por eso mostramos métricas reales, no proyecciones infladas."
+    },
+    {
+      "id": "telegram",
+      "question": "¿Cómo entro al grupo de Telegram?",
+      "answer": "Haz clic en cualquier botón \"Unirse al Telegram\" de esta página. En el canal publicamos oportunidades, actualizaciones de proyectos y análisis del ecosistema."
+    },
+    {
+      "id": "paises",
+      "question": "¿Puedo invertir desde cualquier país?",
+      "answer": "Unitok está diseñado para ser accesible globalmente. Desde cualquier parte del mundo puedes ser parte de los proyectos de Unitok."
+    }
+  ]
+}

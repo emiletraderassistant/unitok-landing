@@ -1,25 +1,43 @@
 {
   "name": "unitok-landing",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "build:css": "tailwindcss -i ./input.css -o ./assets/tailwind.css --minify",
-    "watch:css": "tailwindcss -i ./input.css -o ./assets/tailwind.css --watch"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emiletraderassistant/unitok-landing.git"
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emiletraderassistant/unitok-landing/issues"
+  "packageManager": "npm@10.9.4",
+  "dependencies": {
+    "@angular/common": "^21.1.0",
+    "@angular/compiler": "^21.1.0",
+    "@angular/core": "^21.1.0",
+    "@angular/forms": "^21.1.0",
+    "@angular/platform-browser": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
   },
-  "homepage": "https://github.com/emiletraderassistant/unitok-landing#readme",
   "devDependencies": {
-    "@tailwindcss/cli": "^4.2.4",
-    "tailwindcss": "^4.2.4"
+    "@angular/build": "^21.1.4",
+    "@angular/cli": "^21.1.4",
+    "@angular/compiler-cli": "^21.1.0",
+    "@tailwindcss/postcss": "^4.2.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.2.4",
+    "typescript": "~5.9.2"
   }
 }

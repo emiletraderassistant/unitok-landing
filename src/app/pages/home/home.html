@@ -1,0 +1,1395 @@
+<!-- Background gradient mesh ambient (decorativo, detrás del contenido) -->
+    <div class="bg-mesh" aria-hidden="true">
+      <div class="bg-mesh__blob bg-mesh__blob--1"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--2"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--3"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--4"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--5"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--6"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--7"></div>
+      <div class="bg-mesh__blob bg-mesh__blob--8"></div>
+    </div>
+
+    <!-- ============ NAV BAR ============ -->
+    <header id="site-nav" class="fixed top-0 inset-x-0 z-50" [class.is-scrolled]="isScrolled()">
+      <nav
+        class="max-w-container mx-auto px-6 md:px-8 lg:px-12 h-16 md:h-20 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <a href="#top" class="flex items-center" aria-label="Unitok inicio">
+          <img
+            src="assets/img/logo.png"
+            alt="Unitok"
+            class="h-8 md:h-9 w-auto"
+          />
+        </a>
+
+        <!-- CTA Telegram -->
+        <a
+          href="https://t.me/UnitokOficial"
+          target="_blank"
+          rel="noopener"
+          class="btn-primary inline-flex rounded-full px-4 md:px-5 py-2 md:py-2.5 text-sm font-semibold items-center gap-2"
+        >
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"
+            />
+          </svg>
+          Unirse al Telegram
+        </a>
+      </nav>
+    </header>
+
+    <main id="top" class="pt-16 md:pt-20">
+      <!-- ============ 1. HERO ============ -->
+      <section class="relative overflow-hidden">
+        <div
+          class="max-w-container mx-auto px-6 md:px-8 lg:px-12 pt-16 md:pt-24 pb-12 md:pb-20"
+        >
+          <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <!-- Left: text -->
+            <div class="reveal lg:max-w-[580px]">
+              <span
+                class="inline-block micro-label text-blue-vibrant bg-blue-vibrant/10 rounded-full px-3 py-1.5 mb-6"
+              >
+                Tokenización de activos reales
+              </span>
+              <h1 class="h1-hero text-black-deep text-balance">
+                Invierte en proyectos reales.
+                <span class="text-blue-vibrant"
+                  >Recibe ingresos mensuales.</span
+                >
+              </h1>
+              <p
+                class="mt-6 font-normal text-[#6B7280] text-[0.95rem] leading-[1.6] max-w-[440px]"
+              >
+                Unitok democratiza el acceso a inversiones que antes estaban
+                reservadas para grandes capitales. Desde restaurantes hasta
+                commodities, participa con montos accesibles y recibe
+                distribuciones proporcionales.
+              </p>
+
+              <div class="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <a
+                  href="https://t.me/UnitokOficial"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-primary inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-base font-semibold"
+                >
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"
+                    />
+                  </svg>
+                  Unirse al Telegram
+                </a>
+                <a
+                  href="#proyectos"
+                  class="btn-ghost-blue inline-flex items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold"
+                >
+                  Ver proyectos
+                </a>
+              </div>
+
+              <!-- Credibilidad pasiva -->
+              <div class="mt-10 pt-6 border-t border-gray-line">
+                <div
+                  class="flex items-center gap-2 text-[0.95rem] leading-[1.5] tracking-[-0.01em] text-[#00002E] whitespace-nowrap"
+                >
+                  <!-- Heroicons outline · banknotes -->
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#325FEC"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                    class="flex-shrink-0"
+                  >
+                    <rect
+                      x="2.25"
+                      y="6.75"
+                      width="19.5"
+                      height="10.5"
+                      rx="1.5"
+                    />
+                    <circle cx="12" cy="12" r="2.25" />
+                    <path d="M6 12h.008v.008H6V12zM18 12h.008v.008H18V12z" />
+                  </svg>
+                  <span
+                    ><span class="font-bold">{{ distributedAmount() }}</span>
+                    <span class="font-normal"
+                      >distribuidos a inversionistas</span
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: VSL (Panda Video) -->
+            <div class="reveal">
+              <div
+                class="vsl-wrapper w-full max-w-[640px] mx-auto"
+                style="position: relative; padding-top: 56.25%"
+              >
+                <iframe
+                  id="panda-79595da5-4c20-45f0-aa13-2cc938b71a68"
+                  src="https://player-vz-a825cc68-ae0.tv.pandavideo.com/embed/?v=79595da5-4c20-45f0-aa13-2cc938b71a68"
+                  style="border: none; position: absolute; top: 0; left: 0"
+                  allow="
+                    accelerometer;
+                    gyroscope;
+                    autoplay;
+                    encrypted-media;
+                    picture-in-picture;
+                  "
+                  allowfullscreen="true"
+                  width="100%"
+                  height="100%"
+                  fetchpriority="high"
+                  title="Video de presentación Unitok"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 4. CÓMO FUNCIONA ============ -->
+      <section id="como-funciona" class="py-12 md:py-20">
+        <div class="max-w-container mx-auto px-6 md:px-8 lg:px-12">
+          <div class="max-w-2xl reveal">
+            <h2 class="h2-section">Así funciona Unitok</h2>
+            <p class="lead mt-4">
+              Tres pasos para invertir en activos reales tokenizados.
+            </p>
+          </div>
+
+          <div class="mt-10 md:mt-14 grid md:grid-cols-3 gap-6">
+            <!-- Paso 01 -->
+            <div
+              class="reveal relative bg-white border border-gray-line rounded-2xl p-7 overflow-hidden"
+            >
+              <span
+                class="absolute top-4 right-5 font-display font-extrabold text-7xl text-blue-vibrant/10 select-none leading-none"
+                >01</span
+              >
+              <div
+                class="relative w-12 h-12 rounded-xl bg-blue-vibrant/10 flex items-center justify-center text-blue-vibrant"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="11" cy="11" r="7" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </div>
+              <h3
+                class="relative font-display font-semibold text-xl mt-5 text-black-deep"
+              >
+                Explora proyectos
+              </h3>
+              <p class="relative mt-2 text-black-deep/70">
+                Cada proyecto pasa por un análisis financiero y un plan de
+                negocios documentado antes de listarse en Unitok.
+              </p>
+            </div>
+
+            <!-- Paso 02 -->
+            <div
+              class="reveal relative bg-white border border-gray-line rounded-2xl p-7 overflow-hidden"
+            >
+              <span
+                class="absolute top-4 right-5 font-display font-extrabold text-7xl text-blue-vibrant/10 select-none leading-none"
+                >02</span
+              >
+              <div
+                class="relative w-12 h-12 rounded-xl bg-blue-vibrant/10 flex items-center justify-center text-blue-vibrant"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4" />
+                  <path d="M3 5v14a2 2 0 0 0 2 2h16v-5" />
+                  <path d="M18 12a2 2 0 0 0 0 4h4v-4z" />
+                </svg>
+              </div>
+              <h3
+                class="relative font-display font-semibold text-xl mt-5 text-black-deep"
+              >
+                Compra tokens
+              </h3>
+              <p class="relative mt-2 text-black-deep/70">
+                Cada token equivale a una porción del activo. Compras
+                directamente desde Unitok, sin papeleos ni intermediarios.
+              </p>
+            </div>
+
+            <!-- Paso 03 -->
+            <div
+              class="reveal relative bg-white border border-gray-line rounded-2xl p-7 overflow-hidden"
+            >
+              <span
+                class="absolute top-4 right-5 font-display font-extrabold text-7xl text-blue-vibrant/10 select-none leading-none"
+                >03</span
+              >
+              <div
+                class="relative w-12 h-12 rounded-xl bg-blue-vibrant/10 flex items-center justify-center text-blue-vibrant"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <line x1="8" y1="17" x2="8" y2="11" />
+                  <line x1="12" y1="17" x2="12" y2="7" />
+                  <line x1="16" y1="17" x2="16" y2="13" />
+                </svg>
+              </div>
+              <h3
+                class="relative font-display font-semibold text-xl mt-5 text-black-deep"
+              >
+                Recibe distribuciones
+              </h3>
+              <p class="relative mt-2 text-black-deep/70">
+                Los ingresos generados se reparten mensualmente entre los
+                holders. Tú solo los recibes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 2. PROYECTOS ============ -->
+      <section id="proyectos" class="py-12 md:py-20">
+        <div class="max-w-container mx-auto px-6 md:px-8 lg:px-12">
+          <div class="max-w-2xl reveal">
+            <h2 class="h2-section">Proyectos tokenizados</h2>
+            <p
+              class="mt-4 font-normal text-[1rem] leading-[1.6] text-[#6B7280] max-w-[540px]"
+            >
+              Desde $100 ya eres parte de proyectos a gran escala.
+            </p>
+          </div>
+
+          <!-- Grid (desktop) / Scroller (mobile via custom CSS) -->
+          <div
+            class="mt-10 md:mt-14 projects-scroller md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-6"
+          >
+            @if (loading()) {
+              <div class="col-span-full py-16 text-center text-gray-500">
+                Cargando proyectos…
+              </div>
+            } @else {
+              @for (project of projects(); track project.id) {
+                <article class="project-card-wrap">
+                  <div [class]="projectCardClass(project)">
+                    <div
+                      class="relative rounded-xl overflow-hidden"
+                      [class.sold-out-overlay]="project.status === 'sold-out'"
+                    >
+                      <img
+                        [src]="project.image"
+                        [alt]="project.name"
+                        loading="lazy"
+                        class="block w-full aspect-[3/2] object-cover rounded-xl"
+                      />
+                    </div>
+
+                    <span [class]="projectBadgeClass(project)">{{ project.statusLabel }}</span>
+                    <h3 class="font-display font-bold text-2xl text-black-deep">
+                      {{ project.name }}
+                    </h3>
+                    <p class="text-sm text-gray-500 mt-1 font-medium">
+                      {{ project.category }}
+                    </p>
+
+                    @if (project.metrics?.length) {
+                      <dl class="mt-5 divide-y divide-gray-100">
+                        @for (metric of project.metrics; track metric.label) {
+                          <div class="flex items-center justify-between py-2.5">
+                            <dt
+                              class="text-[0.7rem] font-medium text-gray-500 uppercase tracking-wide"
+                            >
+                              {{ metric.label }}
+                            </dt>
+                            <dd
+                              class="font-display font-bold text-lg"
+                              [class.text-black-deep]="!metric.highlight"
+                              [class.text-blue-vibrant]="!!metric.highlight"
+                            >
+                              {{ metric.value }}
+                            </dd>
+                          </div>
+                        }
+                      </dl>
+                    }
+
+                    @if (project.perks?.length) {
+                      <div class="mt-5">
+                        @for (perk of project.perks; track perk) {
+                          <div
+                            class="flex items-start gap-2 py-2 border-t border-gray-100"
+                          >
+                            <svg
+                              width="14"
+                              height="14"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="#325FEC"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              aria-hidden="true"
+                              class="flex-shrink-0 mt-0.5"
+                            >
+                              <path d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span
+                              class="text-sm font-normal text-black-deep leading-[1.5]"
+                              >{{ perk }}</span
+                            >
+                          </div>
+                        }
+                      </div>
+                    }
+
+                    @if (project.cta.type === 'telegram') {
+                      <a
+                        [href]="project.cta.href"
+                        target="_blank"
+                        rel="noopener"
+                        class="group mt-auto flex items-center justify-center gap-2 border-t border-gray-100 cursor-pointer"
+                        style="
+                          padding: 12px 0;
+                          font-size: 0.8125rem;
+                          font-weight: 500;
+                          color: #325fec;
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="#325FEC"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="M22 2L11 13" />
+                          <path d="M22 2L15 22L11 13L2 9L22 2z" />
+                        </svg>
+                        <span class="group-hover:underline">{{ project.cta.label }}</span>
+                        <span
+                          aria-hidden="true"
+                          class="transition-transform duration-200 ease-out group-hover:translate-x-0.5"
+                          >→</span
+                        >
+                      </a>
+                    } @else {
+                      <div class="mt-auto pt-6">
+                        <a
+                          [href]="project.cta.href"
+                          class="btn-primary inline-flex w-full items-center justify-center rounded-full px-5 py-3 text-sm font-semibold"
+                        >
+                          {{ project.cta.label }}
+                        </a>
+                      </div>
+                    }
+                  </div>
+                </article>
+              }
+            }
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 3. EL SHIFT ============ -->
+      <section class="shift-section py-12 md:py-20">
+        <div class="max-w-container mx-auto px-6 md:px-8 lg:px-12">
+          <div class="max-w-3xl reveal mb-10 md:mb-14">
+            <h2 class="h2-section">
+              Lo que antes era imposible, hoy empieza con un token.
+            </h2>
+          </div>
+
+          <div
+            class="grid md:grid-cols-2 gap-6 md:gap-0 items-stretch relative"
+          >
+            <!-- Antes -->
+            <div
+              class="bg-white border border-gray-line rounded-2xl p-7 md:rounded-r-none md:border-r-0"
+            >
+              <span class="micro-label text-black-deep/60">Antes</span>
+              <h3 class="font-display font-bold text-xl mt-2 text-black-deep">
+                Inversión tradicional
+              </h3>
+              <ul class="shift-list mt-6 space-y-4">
+                <li class="shift-row shift-row--left flex items-start gap-3">
+                  <span class="shift-icon shift-icon--neg">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#DC2626"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M6 6l12 12M6 18L18 6" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep/75"
+                    >Montos mínimos de $50,000+</span
+                  >
+                </li>
+                <li class="shift-row shift-row--left flex items-start gap-3">
+                  <span class="shift-icon shift-icon--neg">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#DC2626"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M6 6l12 12M6 18L18 6" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep/75"
+                    >Procesos opacos y burocráticos</span
+                  >
+                </li>
+                <li class="shift-row shift-row--left flex items-start gap-3">
+                  <span class="shift-icon shift-icon--neg">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#DC2626"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M6 6l12 12M6 18L18 6" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep/75"
+                    >Acceso reservado a inversionistas institucionales</span
+                  >
+                </li>
+                <li class="shift-row shift-row--left flex items-start gap-3">
+                  <span class="shift-icon shift-icon--neg">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#DC2626"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M6 6l12 12M6 18L18 6" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep/75"
+                    >Sin visibilidad del rendimiento real</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Con Unitok -->
+            <div
+              class="bg-white border-2 border-blue-vibrant rounded-2xl p-7 md:rounded-l-none shadow-card"
+            >
+              <span class="micro-label text-blue-vibrant">Con Unitok</span>
+              <h3 class="font-display font-bold text-xl mt-2 text-black-deep">
+                Inversión tokenizada
+              </h3>
+              <ul class="shift-list mt-6 space-y-4">
+                <li class="shift-row shift-row--right flex items-start gap-3">
+                  <span class="shift-icon shift-icon--pos">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="5 12 10 17 19 7" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep"
+                    >Invierte desde montos accesibles</span
+                  >
+                </li>
+                <li class="shift-row shift-row--right flex items-start gap-3">
+                  <span class="shift-icon shift-icon--pos">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="5 12 10 17 19 7" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep"
+                    >Todo transparente y on-chain</span
+                  >
+                </li>
+                <li class="shift-row shift-row--right flex items-start gap-3">
+                  <span class="shift-icon shift-icon--pos">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="5 12 10 17 19 7" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep"
+                    >Abierto a inversionistas globales</span
+                  >
+                </li>
+                <li class="shift-row shift-row--right flex items-start gap-3">
+                  <span class="shift-icon shift-icon--pos">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="5 12 10 17 19 7" />
+                    </svg>
+                  </span>
+                  <span class="shift-text text-black-deep"
+                    >Dashboard en tiempo real</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 6. POR QUÉ ESTO FUNCIONA ============ -->
+      <section class="py-12 md:py-20">
+        <div class="max-w-container mx-auto px-6 md:px-8 lg:px-12">
+          <!-- Título full-width arriba del grid -->
+          <div class="reveal mb-10 md:mb-12">
+            <h2 class="h2-section">Por qué esto funciona</h2>
+          </div>
+
+          <div class="grid lg:grid-cols-[0.85fr_1.15fr] gap-12 items-center">
+            <div class="reveal">
+              <p class="lead">
+                ¿Y si pudieras invertir en un restaurante exitoso, una marca de
+                suplementos o un commodity como el petróleo — todo desde tu
+                celular y desde $100? Eso es Unitok. Compras tokens, recibes
+                ingresos cada mes y ves crecer tu portafolio en tiempo real.
+                <a
+                  href="https://t.me/UnitokOficial"
+                  target="_blank"
+                  rel="noopener"
+                  class="text-[#325FEC] hover:underline"
+                  >Únete a nuestro Telegram</a
+                >
+                y entra al próximo proyecto antes que el resto.
+              </p>
+
+              <ul class="mt-8 space-y-4">
+                <li class="flex items-start gap-3">
+                  <span
+                    class="flex-shrink-0 w-7 h-7 rounded-full bg-blue-vibrant/10 flex items-center justify-center"
+                  >
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                  </span>
+                  <span class="text-black-deep"
+                    >Proyectos con due diligence previo</span
+                  >
+                </li>
+                <li class="flex items-start gap-3">
+                  <span
+                    class="flex-shrink-0 w-7 h-7 rounded-full bg-blue-vibrant/10 flex items-center justify-center"
+                  >
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                      />
+                      <polyline points="14 2 14 8 20 8" />
+                    </svg>
+                  </span>
+                  <span class="text-black-deep"
+                    >Estructura legal transparente</span
+                  >
+                </li>
+                <li class="flex items-start gap-3">
+                  <span
+                    class="flex-shrink-0 w-7 h-7 rounded-full bg-blue-vibrant/10 flex items-center justify-center"
+                  >
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polygon points="12 2 22 8 22 16 12 22 2 16 2 8" />
+                    </svg>
+                  </span>
+                  <span class="text-black-deep"
+                    >Distribuciones registradas on-chain</span
+                  >
+                </li>
+                <li class="flex items-start gap-3">
+                  <span
+                    class="flex-shrink-0 w-7 h-7 rounded-full bg-blue-vibrant/10 flex items-center justify-center"
+                  >
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#325FEC"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2" />
+                      <line x1="3" y1="9" x2="21" y2="9" />
+                      <line x1="9" y1="21" x2="9" y2="9" />
+                    </svg>
+                  </span>
+                  <span class="text-black-deep"
+                    >Dashboard personal con tu posición en tiempo real</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Visual: dashboard mockup HTML/CSS/SVG (nítido en cualquier resolución) -->
+            <div class="reveal relative">
+              <div class="w-full max-w-[720px] mx-auto">
+                <div
+                  class="dash"
+                  role="img"
+                  aria-label="Dashboard de Unitok mostrando recompensas y crecimiento de ROI"
+                >
+                  <!-- Sidebar -->
+                  <aside class="dash-sidebar">
+                    <nav class="dash-nav" aria-hidden="true">
+                      <span class="dash-nav-item">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M3 12l9-9 9 9" />
+                          <path d="M5 10v10h14V10" />
+                        </svg>
+                        Inicio
+                      </span>
+                      <span class="dash-nav-item is-active">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <circle cx="12" cy="12" r="9" />
+                          <polyline points="12 7 12 12 15 14" />
+                        </svg>
+                        Recompensas
+                      </span>
+                      <span class="dash-nav-item">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <line x1="3" y1="12" x2="21" y2="12" />
+                          <polyline points="14 5 21 12 14 19" />
+                        </svg>
+                        Transferir
+                      </span>
+                      <span class="dash-nav-item">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <polygon points="12 2 22 8 22 16 12 22 2 16 2 8" />
+                        </svg>
+                        Staking
+                      </span>
+                      <span class="dash-nav-item">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <rect x="3" y="3" width="8" height="8" rx="1" />
+                          <rect x="13" y="3" width="8" height="8" rx="1" />
+                          <rect x="3" y="13" width="8" height="8" rx="1" />
+                          <rect x="13" y="13" width="8" height="8" rx="1" />
+                        </svg>
+                        Mis NFTs
+                      </span>
+                      <span class="dash-nav-item">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <line x1="3" y1="6" x2="21" y2="6" />
+                          <line x1="3" y1="12" x2="21" y2="12" />
+                          <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                        DAO
+                      </span>
+                    </nav>
+                  </aside>
+
+                  <!-- Main content -->
+                  <div class="dash-main">
+                    <!-- Header -->
+                    <div class="dash-header">
+                      <div>
+                        <h3 class="dash-header-title">Recompensas</h3>
+                        <p class="dash-header-sub">
+                          Distribuciones recibidas por tus tokens
+                        </p>
+                      </div>
+                      <span class="dash-live"
+                        ><span class="dash-live-dot"></span>EN VIVO</span
+                      >
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="dash-stats">
+                      <div class="dash-stat">
+                        <div class="dash-stat-label">Total Recibido</div>
+                        <div class="dash-stat-value">$2,847.50</div>
+                      </div>
+                      <div class="dash-stat">
+                        <div class="dash-stat-label">Pendiente</div>
+                        <div class="dash-stat-value dash-stat-value--blue">
+                          $432.18
+                        </div>
+                      </div>
+                      <div class="dash-stat">
+                        <div class="dash-stat-label">ROI Acumulado</div>
+                        <div class="dash-stat-value">+34.6%</div>
+                      </div>
+                    </div>
+
+                    <!-- Gráfica -->
+                    <div class="dash-chart-card">
+                      <div class="dash-chart-header">
+                        <span class="dash-chart-label"
+                          >Crecimiento ROI · 12 meses</span
+                        >
+                        <div class="dash-chart-value">
+                          +34.6%<span class="dash-chart-delta"
+                            >↑ +5.2% último mes</span
+                          >
+                        </div>
+                      </div>
+                      <svg
+                        viewBox="0 0 480 80"
+                        style="width: 100%; height: 60px; display: block"
+                        preserveAspectRatio="none"
+                        aria-hidden="true"
+                      >
+                        <defs>
+                          <linearGradient
+                            id="dashChartGrad"
+                            x1="0%"
+                            y1="0%"
+                            x2="0%"
+                            y2="100%"
+                          >
+                            <stop
+                              offset="0%"
+                              stop-color="#325FEC"
+                              stop-opacity="0.25"
+                            />
+                            <stop
+                              offset="100%"
+                              stop-color="#325FEC"
+                              stop-opacity="0"
+                            />
+                          </linearGradient>
+                        </defs>
+                        <path
+                          d="M 0,72 L 40,68 L 80,64 L 120,58 L 160,52 L 200,48 L 240,40 L 280,38 L 320,30 L 360,24 L 400,18 L 440,12 L 480,8 L 480,80 L 0,80 Z"
+                          fill="url(#dashChartGrad)"
+                        />
+                        <path
+                          d="M 0,72 L 40,68 L 80,64 L 120,58 L 160,52 L 200,48 L 240,40 L 280,38 L 320,30 L 360,24 L 400,18 L 440,12 L 480,8"
+                          stroke="#325FEC"
+                          stroke-width="2"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle cx="480" cy="8" r="3" fill="#325FEC" />
+                        <circle
+                          cx="480"
+                          cy="8"
+                          r="6"
+                          fill="#325FEC"
+                          opacity="0.25"
+                        />
+                      </svg>
+                      <div class="dash-chart-months">
+                        <span>May</span><span>Jul</span><span>Sep</span
+                        ><span>Nov</span><span>Ene</span><span>Mar</span
+                        ><span>Abr</span>
+                      </div>
+                    </div>
+
+                    <!-- Tabla -->
+                    <div class="dash-table-header">
+                      <span>Proyecto</span>
+                      <span>Monto</span>
+                      <span>Fecha</span>
+                      <span>Estado</span>
+                      <span></span>
+                    </div>
+
+                    <!-- Fila 1: AlphaOil -->
+                    <div class="dash-row dash-row--alt">
+                      <div class="dash-row-project">
+                        <span class="dash-row-thumb dash-thumb--oil">
+                          <svg
+                            width="11"
+                            height="11"
+                            viewBox="0 0 24 24"
+                            fill="#FFFFFF"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M12 2C8 6 6 10 6 14a6 6 0 0 0 12 0c0-4-2-8-6-12z"
+                            />
+                          </svg>
+                        </span>
+                        <span class="dash-row-project-name">AlphaOil #28</span>
+                      </div>
+                      <span class="dash-row-amount">$184.30</span>
+                      <span class="dash-row-date">Abr 12, 2026</span>
+                      <span class="dash-badge dash-badge--pending">
+                        <span
+                          class="dash-badge-dot"
+                          style="background: #92400e"
+                        ></span
+                        >Pendiente
+                      </span>
+                      <span class="dash-row-action">Reclamar →</span>
+                    </div>
+
+                    <!-- Fila 2: Kayao -->
+                    <div class="dash-row dash-row--plain">
+                      <div class="dash-row-project">
+                        <span class="dash-row-thumb dash-thumb--token">
+                          <svg
+                            width="12"
+                            height="12"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#FFFFFF"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                          >
+                            <path d="M12 2L3 7l9 5 9-5-9-5z" />
+                            <path d="M3 7v10l9 5 9-5V7" />
+                            <line x1="12" y1="12" x2="12" y2="22" />
+                          </svg>
+                        </span>
+                        <span class="dash-row-project-name">Kayao #14</span>
+                      </div>
+                      <span class="dash-row-amount">$247.88</span>
+                      <span class="dash-row-date">Abr 1, 2026</span>
+                      <span class="dash-badge dash-badge--claimed">
+                        <svg
+                          width="8"
+                          height="8"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="#166534"
+                          stroke-width="3.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          aria-hidden="true"
+                        >
+                          <polyline points="5 12 10 17 19 7" /></svg
+                        >Reclamado
+                      </span>
+                      <span class="dash-row-action dash-row-action--muted"
+                        >Ver</span
+                      >
+                    </div>
+
+                    <!-- Fila 3: Matilda -->
+                    <div class="dash-row dash-row--alt">
+                      <div class="dash-row-project">
+                        <span class="dash-row-thumb dash-thumb--token">
+                          <svg
+                            width="12"
+                            height="12"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#FFFFFF"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                          >
+                            <path d="M12 2L3 7l9 5 9-5-9-5z" />
+                            <path d="M3 7v10l9 5 9-5V7" />
+                            <line x1="12" y1="12" x2="12" y2="22" />
+                          </svg>
+                        </span>
+                        <span class="dash-row-project-name">Matilda #07</span>
+                      </div>
+                      <span class="dash-row-amount">$312.45</span>
+                      <span class="dash-row-date">Mar 15, 2026</span>
+                      <span class="dash-badge dash-badge--claimed">
+                        <svg
+                          width="8"
+                          height="8"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="#166534"
+                          stroke-width="3.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          aria-hidden="true"
+                        >
+                          <polyline points="5 12 10 17 19 7" /></svg
+                        >Reclamado
+                      </span>
+                      <span class="dash-row-action dash-row-action--muted"
+                        >Ver</span
+                      >
+                    </div>
+
+                    <!-- Paginación sutil -->
+                    <div class="dash-pagination">
+                      <span class="dash-pag-info">Mostrando 1–3 de 18</span>
+                      <div class="dash-pag-controls">
+                        <span>‹</span>
+                        <span class="is-active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>…</span>
+                        <span>6</span>
+                        <span>›</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 7. FAQ ============ -->
+      <section id="faq" class="py-12 md:py-20">
+        <div class="max-w-3xl mx-auto px-6 md:px-8">
+          <div class="text-center reveal">
+            <h2 class="h2-section">Preguntas frecuentes</h2>
+          </div>
+
+          <div class="mt-10 md:mt-14 space-y-3" id="faq-list">
+            @for (faq of faqs(); track faq.id) {
+              <div
+                class="faq-item bg-white border border-gray-line rounded-2xl"
+                [class.is-open]="openFaqId() === faq.id"
+              >
+                <button
+                  type="button"
+                  class="faq-trigger w-full flex items-center justify-between text-left px-5 md:px-6 py-5 gap-4"
+                  (click)="toggleFaq(faq.id)"
+                >
+                  <span
+                    class="font-display font-semibold text-base md:text-lg text-black-deep"
+                    >{{ faq.question }}</span
+                  >
+                  <span
+                    class="faq-icon flex-shrink-0 w-7 h-7 rounded-full bg-blue-vibrant/10 text-blue-vibrant flex items-center justify-center"
+                  >
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                    >
+                      <line x1="12" y1="5" x2="12" y2="19" />
+                      <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-content px-5 md:px-6">
+                  <p class="text-black-deep/75">{{ faq.answer }}</p>
+                </div>
+              </div>
+            }
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ 8. CTA FINAL ============ -->
+      <section class="py-12 md:py-20">
+        <div class="max-w-container mx-auto px-6 md:px-8 lg:px-12">
+          <div
+            class="cta-mesh relative overflow-hidden rounded-[2rem] px-6 md:px-12 py-14 md:py-20 text-center"
+          >
+            <div
+              class="absolute -top-16 -left-16 w-56 h-56 hex bg-turquoise/30"
+            ></div>
+            <div
+              class="absolute -bottom-12 -right-12 w-72 h-72 hex bg-white/5 border border-white/20"
+            ></div>
+
+            <div class="relative max-w-3xl mx-auto">
+              <h2 class="h2-section text-white">
+                Empieza a invertir con Unitok.
+              </h2>
+              <p class="lead mt-5 text-white/80">
+                Únete a la comunidad y explora proyectos disponibles.
+              </p>
+              <p
+                class="mt-4 mx-auto text-center text-white/95 font-semibold tracking-[-0.01em] leading-[1.4] text-[clamp(1.05rem,1.6vw,1.25rem)] max-w-[640px]"
+              >
+                Tu portafolio de activos reales te está esperando.
+              </p>
+
+              <div
+                class="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 sm:justify-center"
+              >
+                <a
+                  href="https://t.me/UnitokOficial"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-on-dark-primary inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-base font-semibold"
+                >
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"
+                    />
+                  </svg>
+                  Unirse al Telegram
+                </a>
+                <a
+                  href="#proyectos"
+                  class="btn-on-dark-ghost inline-flex items-center justify-center rounded-full px-7 py-3.5 text-base font-semibold"
+                >
+                  Ver proyectos
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ 9. FOOTER ============ -->
+    <footer class="bg-white border-t border-gray-line">
+      <div class="max-w-container mx-auto px-6 md:px-8 lg:px-12 py-12 md:py-16">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div>
+            <a href="#top" class="inline-block" aria-label="Unitok inicio">
+              <img
+                src="assets/img/logo.png"
+                alt="Unitok"
+                class="footer-logo-img"
+              />
+            </a>
+            <p class="text-sm text-black-deep/65 max-w-xs">
+              Tu acceso al mundo de los tokens.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-display font-semibold text-sm text-black-deep">
+              Navegación
+            </h4>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li>
+                <a
+                  href="#proyectos"
+                  class="text-black-deep/70 hover:text-blue-vibrant transition-colors duration-300"
+                  >Proyectos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#como-funciona"
+                  class="text-black-deep/70 hover:text-blue-vibrant transition-colors duration-300"
+                  >Cómo funciona</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  class="text-black-deep/70 hover:text-blue-vibrant transition-colors duration-300"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-display font-semibold text-sm text-black-deep">
+              Comunidad & Contacto
+            </h4>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li>
+                <a
+                  href="https://t.me/UnitokOficial"
+                  target="_blank"
+                  rel="noopener"
+                  class="inline-flex items-center gap-2 text-black-deep/70 hover:text-blue-vibrant transition-colors duration-300"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"
+                    />
+                  </svg>
+                  Telegram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/unitok_io"
+                  target="_blank"
+                  rel="noopener"
+                  class="inline-flex items-center gap-2 text-black-deep/70 hover:text-blue-vibrant transition-colors duration-300"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+                  </svg>
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://unitok.io"
+                  class="inline-flex items-center gap-2 text-black-deep/70 hover:text-blue-vibrant transition-colors duration-300"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="9" />
+                    <path
+                      d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"
+                    />
+                  </svg>
+                  unitok.io
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="mt-12 pt-6 border-t border-gray-line flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-xs text-black-deep/60"
+        >
+          <p>© 2026 Unitok. Todos los derechos reservados.</p>
+          <p class="md:max-w-xl md:text-right">
+            Las inversiones en tokens de activos del mundo real conllevan
+            riesgo. Los rendimientos históricos no garantizan rendimientos
+            futuros.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Botón flotante WhatsApp -->
+    <a
+      href="https://wa.me/17869796292"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contactar por WhatsApp"
+      id="wa-fab"
+      style="
+        position: fixed;
+        bottom: 28px;
+        right: 28px;
+        z-index: 9999;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: wa-float 3s ease-in-out infinite;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      "
+    >
+      <img
+        src="assets/img/whatsapp.svg"
+        alt="WhatsApp"
+        width="80"
+        height="80"
+        style="border-radius: 50%; display: block"
+      />
+    </a>

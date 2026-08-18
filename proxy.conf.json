@@ -1,0 +1,10 @@
+{
+  "/unitok-api": {
+    "target": "https://api.unitok.io",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/unitok-api": ""
+    }
+  }
+}
